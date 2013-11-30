@@ -9,7 +9,7 @@ My website has a movie and game database.
 The movie db contains data on all the movies I bought on DVD or BluRay, including for example: actors, directors, rating, score, release year, etc..
 The game db is similar to this.
 
-Originally I had the website itself make the connections and querying to the MySQL database, but in an effort to migrate away from PHP (I'm currently learning and planning to use Go in the future for all my web related stuff) I had to first take it apart and separate it into a just a frontend and backend.
+Originally I had the website itself make the connections and querying to the MySQL database, but in an effort to migrate away from PHP (I'm currently learning and planning to use Go in the future for all my web related stuff) I had to first take it apart and separate it into frontend and backend.
 This project here is the backend part.
 
 It's sole purpose is to serve data retrieved from MySQL to the frontend in JSON format.
